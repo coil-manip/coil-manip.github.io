@@ -313,6 +313,22 @@
                   width="100%"
                   />
       </div>
+      <div class="rows">
+        <div class="columns">
+          <div class="column has-text-centered">
+            <video id="dist1" controls="" muted="" autoplay="" loop="" width="99%">
+              <source src="videos/failure-tracking-1.mp4" type="video/mp4">
+            </video>
+            <p>In this example, the key points on the shoe moved too rapidly when brought close to the container, causing tracking failures and the policy to output actions that hit the shoe on the container surface.</p>
+          </div>
+          <div class="column has-text-centered">
+            <video id="dist2" controls="" muted="" autoplay="" loop="" width="99%">
+              <source src="videos/failure-execution-1.mp4" type="video/mp4">
+            </video>
+            <p>In this example, the policy failed to predict accurate grasping and placing actions for executing the tasks. </p>
+          </div>
+        </div>
+      </div>
       <p class="content has-text-justified">
         We categorize real-world failure cases into perception failures and execution failures, and visualize their proportions across all evaluation tasks. The majority of failures stem from inaccuracies in point tracking, particularly under occlusion or clutter. Execution failures most commonly occur during the grasping phase , often when objects are flat or lack distinctive geometry, making it difficult for the policy to localize reliable grasp points.
       </p>
@@ -324,11 +340,11 @@
     <div class="rows is-fullhd">
       <h2 class="title is-3">Bibtex</h2>
       <pre><code>
-      @misc{cao2025coil,
-        title={Correspondence-Oriented Imitation Learning: Flexible Visuomotor Control with 3D Conditioning},
-        author={Yunhao Cao and Zubin Bhaumik and Jessie Jia and Xingyi He and Kuan Fang},
-        year={2025},
-      }
+@misc{cao2025coil,
+  title={Correspondence-Oriented Imitation Learning: Flexible Visuomotor Control with 3D Conditioning},
+  author={Yunhao Cao and Zubin Bhaumik and Jessie Jia and Xingyi He and Kuan Fang},
+  year={2025},
+}
       </code></pre>
   </div>
 </section>
